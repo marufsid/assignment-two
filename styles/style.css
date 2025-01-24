@@ -1,0 +1,218 @@
+
+body {
+    font-family: 'Quicksand', sans-serif; 
+  }
+
+.display-flex {
+    display: flex;
+  }
+
+  .navbar {
+    align-items: center;
+  }
+
+  .school{
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .nav-links{
+    gap: 32px;
+    justify-content: center;
+    margin: 16px 325px;
+  }
+
+  .nav-item {
+    list-style: none;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    font-weight: 500px;
+    font-size: 1.25rem;
+  }
+
+  .violet{
+    color: #8700FF;
+  }
+
+  .orange{
+    color: #FEA301;
+  }
+
+  .blue{
+    color: #01ACFD;
+  }
+
+  .facilities{
+    color: #05D4DF;
+  }
+
+  .addmission{
+    color: #5D58EF;
+  }
+
+  .btn-primary{
+    background-color: #FEA301;
+    color: #FFFFFF;
+    padding: 10px 60px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 12px;
+    border: none;
+  }
+
+  .navbar, .banner {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .banner{
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+
+  .banner-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+
+  .banner-description{
+    font-size: 1.25rem;
+  }
+
+  .btn-banner{
+    background-color: #111111;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 10px 47px;
+    border-radius: 12px;
+    border: none;
+  }
+  .hero{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .menubar{
+    display: none;
+  }
+
+  main{
+    background-image: url(../assets/bg.png);
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .curriculum {
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .cards-container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 28px;
+    margin: 80px 0;
+  }
+
+  .kinder-container, .elementary-container, .middle-container {
+    border-radius: 18px;
+    padding: 105px 40px;
+    box-shadow: 0 0 28px 1px rgba(0, 0, 0, 0.05);
+  }
+
+  .kinder-container {
+    background: linear-gradient(#DEF5FF, #FFFFFF);
+  }
+
+  .elementary-container{
+    background: linear-gradient(#FFF4DC, #FFFFFF);
+  }
+
+  .middle-container{
+    background: linear-gradient(#F2E8FF, #FFFFFF);
+  }
+
+  .kinder, .elementary, .middle {
+    color: #202020;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .kinder-description, .elementary-description, .middle-description {
+    color: #808080;
+    font-weight: 500;
+  }
+
+  .read-more {
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    background-color: #FFFFFF;
+  }
+
+  .navigation {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .btn-navigation{
+    background-color: #FEA301;
+    color: #FFFFFF;
+    font-size: 2rem;
+    border: none;
+    padding: 18px 26px;
+    border-radius: 40px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .btn-navigation:hover {
+    color: #202020;
+  }
+
+  @media screen and (max-width:768px) {
+
+    .school, .nav-links, .btn-primary {
+        display: none;
+    }
+
+    .navbar{
+        justify-content: space-between;
+        padding: 8px 16px;
+        border-bottom: 1px solid orange;
+    }
+
+    .menubar{
+        display: block;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+        margin-bottom: 20px;
+    }
+
+    .banner-details{
+        text-align: center;
+        align-items: center;
+    }
+
+    .hero{
+        margin-bottom: 20px;
+    }
+
+    .cards-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    section {
+        /* display: none; */
+    }
+  }
