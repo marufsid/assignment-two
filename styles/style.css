@@ -275,6 +275,21 @@ body {
     font-weight: 700;
   }
 
+  .view-all {
+    text-align: center;
+  }
+
+  .btn-view {
+    background-color: #111111;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 10px 61px;
+    border-radius: 12px;
+    border: none;
+    margin-bottom: 60px;
+  }
+
   @media screen and (max-width:768px) {
 
     .school, .nav-links, .btn-primary, .navigation, .story-one {
