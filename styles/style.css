@@ -105,7 +105,7 @@ body {
     margin: 0 auto;
   }
 
-  .curriculum {
+  .title {
     font-size: 2.8rem;
     font-weight: 700;
     text-align: center;
@@ -220,12 +220,6 @@ body {
     border-radius: 16px 16px 0 0;
   }
 
-  .story{
-    text-align: center;
-    font-size: 2.8rem;
-    font-weight: 700;
-  }
-
   .date-one {
     background-color: #3CD8E8;
     color: #FFFFFF;
@@ -290,6 +284,59 @@ body {
     margin-bottom: 60px;
   }
 
+  footer{
+    justify-content: center;
+    background-color: #05D4DF;
+    display: flex;
+    gap: 145px;
+    padding: 108px 227px 189px 141px;
+    margin-top: 10px;
+  }
+
+  .left-footer{
+    width: 40%;
+  }
+
+  .img-logo {
+    width: 82.9px;
+    height: 81.65px;
+  }
+
+  .white{
+    color: #FFFFFF;
+  }
+
+  .education{
+    font-size: 2.6rem;
+    font-weight: 700;
+  }
+
+  .logo-title{
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .education-description{
+    font-size: 1.25rem;
+  }
+
+  .bellow{
+    list-style: none;
+    margin-bottom: 25px;
+  }
+
+  .about{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: end;
+  }
+
+  #keep-touch{
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+
   @media screen and (max-width:768px) {
 
     .school, .nav-links, .btn-primary, .navigation, .story-one {
@@ -350,5 +397,19 @@ body {
 
     .story-description {
         padding: 15px 18px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 0;
+    }
+
+    .left-footer{
+        width: 100%;
+    }
+
+    .bellow-nav{
+        padding-left: 0px;
     }
   }
